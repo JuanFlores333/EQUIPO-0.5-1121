@@ -1,0 +1,40 @@
+<script>
+
+for(let jugador = 0; jugador<=1000; jugador++)
+alumno ();
+{
+
+  console.log(alumno);
+
+}
+     function alumno (){
+      let jugador ={
+        "nombre": "Fernando",
+        "apellido paterno": "Tinoco",
+        "apellido materno": "Sanchez",
+        "edad":20,
+        "sexo":"masculino",
+        "nombre": "Juan",
+        "apellido paterno": "Mercado",
+        "apellido materno": "Flores",
+        "edad":18,
+        "sexo":"masculino",
+        "nombre": "Marcelo",
+        "apellido paterno": "Ortega",
+        "apellido materno": "Becerril",
+        "edad":19,
+        "sexo":"masculino",
+        "nombre": "Alexia",
+        "apellido apellido": "Fuentes",
+        "apellido materno": "Cortes",
+        "edad":20,
+        "sexo":"femenino",
+        "nombre": "Arely",
+        "apellido materno": "Hernadez",
+        "apellido paterno": "Magdaleno",
+        "edad":18,
+        "sexo":"femenino",
+      }
+    console.log(jugador);
+     }
+    </script>
