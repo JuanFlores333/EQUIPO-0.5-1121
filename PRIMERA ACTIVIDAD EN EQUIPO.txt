@@ -1,0 +1,47 @@
+<script>
+   
+   var alumno;
+   for(var jugador = 0; jugador<=1000; jugador++){
+        console.log(jugador); 
+    }
+
+    function alumno(alumno) {
+      var nombre =["Fernando", "Juan", "Armando", "Rodrigo", "Jose", "Luis", "Dilan", "Emmanuel", "Christian","Leonel", "Emilio", "Javier", "Nathaniel", "Carlos", "Mario"];
+      var ap = ["Sollano", "Luna", "Howland", "Weigel", "Cabrera", "Avendaño", "Navarrete", "Xochipostequi", "Vega", "Juarez", "Briones", "Calva", "Alonso", "Castro", "Castillo"];
+      var am = ["Mercado", "Bravo", "Sanches", "Grey", "Depp", "Tinoco", "Alvarez", "Ñañes", "Ñuñes","Guerrero", "Arriaga", "Torres", "Huerta", "Ortega", "Servin"];
+      var edad = [18, 20, 19];
+      var sexo = ["masculino"];
+        var jugador={
+           "Nombre": nombre,
+           "Apellido paterno": ap,
+           "Apellido materno": am,
+           "Edad": edad,
+           "Sexo": sexo,
+        }
+    }
+    console.log (alumno);
+
+    function Aleatorio(alumno){
+       nombre [Math.floor(math.random()+nombre.lengh)];
+       return nombre;
+    }
+    function Aleatorio(alumno){
+      ap [Math.floor(Math.random()+ap.length)];
+       return ap;
+    }
+     function Aleatorio(alumno) {
+        am [Math.floor(Math.random()+am.length)];
+       return am;
+    }
+    function Aleatorio(alumno) {
+        edad [Math.floor(Math.random()+edad.length)];
+       return edad;
+    }
+    function Aleatorio(alumno) {
+       sexo [Math.floor(Math.random()+sexo.length)];
+       return sexo;
+    }
+
+
+
+</script>
